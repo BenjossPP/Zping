@@ -164,6 +164,16 @@ nav a i {
 }
 
 
+.evenement {
+    align-items: center;
+}
+
+.evenement img {
+    height: 100px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
 
 
 footer {
@@ -190,9 +200,6 @@ footer p:hover {
     .logo img {
         width: 200px;
 
-    }
-
-    .col-1 p{
     }
 
     .col-1 a{
@@ -224,5 +231,17 @@ footer p:hover {
         height: 70px;
        visibility: visible;
     }
+
+    .evenement {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .evenement img {
+        height: 100px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
     
 }
