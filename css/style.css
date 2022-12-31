@@ -48,12 +48,13 @@ nav ul li a:hover {
     color: red;
 }
 
-nav i {
+nav a i {
     visibility: hidden;
 }
 
 nav a i {
     color: black;
+    width: 100px;
 }
 
 .container {
@@ -190,6 +191,7 @@ footer p:hover {
      width: 100%;
     }
 
+    
     .logo img {
         width: 200px;
     }
@@ -220,10 +222,9 @@ footer p:hover {
         display: none
     }
 
-    nav i {
-        width: 50px;
-        height: 50px;
-        visibility: visible;
+    nav a i{
+        height: 70px;
+       visibility: visible;
     }
     
 }
