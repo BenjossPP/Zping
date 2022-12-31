@@ -94,7 +94,7 @@ nav i {
     transition: background 0.5s;
 }
 
-.col-2 a:hover {
+.col-1 a:hover {
     background-color: #fff;
     color: #16a7b4;
     border: 1px solid #16a7b4;
@@ -183,7 +183,7 @@ footer p:hover {
 @media screen and (max-width:700px) {
 
     body {
-     width: 370px;
+     width: 100%;
     }
 
     .logo img {
