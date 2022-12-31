@@ -72,15 +72,9 @@ nav a i {
 }
 
 .col-1 {
-    flex-basis:50%;
-    min-width: 700px;
+    max-width: 700px;
 }
 
-.col-2 img {
-    width: 75%;
-    padding: 30px 0;
-    margin-left: 150px;
-}
 
 .col-1 h1 {
     font-size: 50px;
@@ -105,6 +99,12 @@ nav a i {
     border: 1px solid #16a7b4;
 }
 
+
+.col-2 img {
+    width: 75%;
+    padding: 30px 0;
+    margin-left: 150px;
+}
 
 /**CATEGORIE CSS**/
 
@@ -187,32 +187,30 @@ footer p:hover {
 
 @media screen and (max-width:700px) {
 
-    body {
-     width: 100%;
-    }
-
-    
     .logo img {
         width: 200px;
+
     }
 
-    .row .col-2 img {
-        
-        width: 300px;
-       margin-right: 175px;
+    .col-1 p{
     }
-     .row .col-1 h1{
+
+    .col-1 a{
+        font-size: 10px;
+    }
+
+    .image-introduction {
+        text-align: center;
+    }
+
+    .image-introduction img {
+        padding: 0;
+        margin: 0;
+        margin-top: 37px;
+    }
+
+    .introduction h1 {
         font-size: 22px;
-        margin-left: 200px;
-    }
-    .row .col-1 p{
-        font-size: 10px;
-        margin-left: 200px;
-        width: 50%;
-    }
-    .row .col-1 a{
-        font-size: 10px;
-        margin-left: 200px;
     }
 
 }
