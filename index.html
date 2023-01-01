@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/75d421d144.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="loader"></div>
     <section class="header-section">
         <div class="container">
             <header class="navbar">
@@ -297,5 +298,16 @@
             <p>Instagram</p>
         </div>
     </footer>
+    <script>
+        window.addEventListener("load", () => {
+            const loader = document.querySelector(".loader");
+
+           loader.classList.add("loader--hidden");
+
+            loader.addEventListener("transitionend", () => {
+                document.body.removeChild(".loader");
+            });
+        });
+    </script>
 </body>
 </html>
