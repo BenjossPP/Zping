@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -13,6 +14,12 @@ body {
   height: 100vh;
   background-color: #1fb3bf;
 }
+
+button a {
+  color: white;
+}
+
+
 
 .container {
   position: relative;

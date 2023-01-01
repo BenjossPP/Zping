@@ -12,6 +12,10 @@ body {
 
 }
 
+button a {
+    color: white;
+}
+
 
 .return {
     margin-bottom: 20px;
